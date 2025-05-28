@@ -2,18 +2,27 @@
   "name": "Translation-assistant",
   "private": true,
   "version": "0.0.0",
-  "type": "module", 
+  "type": "module",
   "homepage": "https://rosazheng1.github.io/Translation-assistant/",
   "scripts": {
-  "dev": "vite",
-  "build": "tsc -b && vite build",
-  "lint": "eslint .",
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "date-fns": "^3.6.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.0.0",
+    "gh-pages": "^6.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^6.0.0"
+  }
 }
-
-  
   "dependencies": {
     "date-fns": "^4.1.0",
     "gh-pages": "^6.3.0",
